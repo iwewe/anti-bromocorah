@@ -1,0 +1,14 @@
+Source: anti-bromocorah
+Section: web
+Priority: optional
+Maintainer: Anti Bromocorah Maintainers <maintainers@example.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://example.org/anti-bromocorah
+
+Package: anti-bromocorah
+Architecture: all
+Depends: nginx | openresty, ${misc:Depends}
+Description: Anti Bromocorah - Lua Anti-DDoS for Nginx/OpenResty (Ubuntu)
+ A lightweight Anti-DDoS layer with a brief JS challenge. Supports
+ global and per-location modes, clean rollback, and bilingual tooling.

@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Anti Bromocorah
+Source: https://example.org/anti-bromocorah
+
+Files: *
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction...
+
+Files: anti_ddos_challenge.lua
+License: MIT
+ Upstream Lua script is MIT-licensed; attribution preserved as required.

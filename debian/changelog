@@ -1,0 +1,6 @@
+anti-bromocorah (2025.11.02-032305Z) unstable; urgency=medium
+
+  * Initial Debian packaging skeleton for Ubuntu servers.
+  * Installs anti_ddos_challenge.lua and anti_ddos.conf.
+
+ -- Anti Bromocorah Maintainers <maintainers@example.org>  Sun, 02 Nov 2025 03:23:05 +0000
