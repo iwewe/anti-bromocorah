@@ -116,14 +116,14 @@ Anti Bromocorah provides **unmetered‑style DDoS mitigation** to keep performan
 ### 🤖 Block Malicious Bots
 Stop abusive automation: **content scraping**, **fraudulent checkout**, and **account takeovers**.
 
-### 🔐 Prevent Customer Data Breach
+### 🔐 Prevent Data Breach
 Reduce risk around stolen credentials, cards, and other personally identifiable information.
 
 ### 🧱 Layered Security Defense
 A **layered** approach combines multiple mitigation techniques: **hold back bad traffic** while **letting good traffic through**, keeping sites, apps, and APIs **available** and **fast**.
 
 ### 🌊 HTTP Flood (Layer 7)
-Handle large waves of **HTTP/GET/POST** targeting the app layer so your services remain **responsive** even under pressure.
+Handle large waves of **HTTP/GET/POST** targeting the app layer so the services remain **responsive** even under pressure.
 
 ### 🧠 Shared / Collective Intelligence
 The more adopters and contributors, the stronger the patterns—**helping identify emerging threats** across the community.
