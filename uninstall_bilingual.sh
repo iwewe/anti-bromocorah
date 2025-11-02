@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Anti Bromocorah — Uninstaller/Rollback (Bilingual ID/EN) — MIT
+# iwewe@2025
 set -euo pipefail
 LANG_CHOICE="id"
 T(){ case "$1:$LANG_CHOICE" in
