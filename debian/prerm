@@ -1,4 +1,0 @@
-#!/bin/sh
-set -e
-# No special actions
-exit 0

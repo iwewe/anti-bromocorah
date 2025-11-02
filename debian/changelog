@@ -1,5 +1,0 @@
-nginx-lua-anti-ddos-challenge (1.0-1) unstable; urgency=medium
-
-  * Initial Ubuntu/Debian packaging of Nginx-Lua-Anti-DDoS.
-
- -- Ubuntu Port Generator <maintainer@example.com>  Sat, 01 Nov 2025 16:02:35 +0000
