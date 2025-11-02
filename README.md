@@ -10,7 +10,7 @@
 
 > Perlindungan sederhana namun efektif untuk website **NGO/LSM**, **gerakan masyarakat sipil**, dan **pemerintah daerah**.  
 > Anti Bromocorah menghadirkan lapisan Anti‑DDoS berbasis **Lua** untuk **Nginx/OpenResty**, dengan tantangan JavaScript singkat sebelum akses.
-> Proyek ini adalah _fork_ dari solusi Anti‑DDoS Lua untuk Nginx (MIT); kredit upstream tetap dijaga sesuai lisensi, sambil memusatkan fokus pada pengalaman **Ubuntu Server**.
+> Proyek ini adalah _fork_ dari solusi Anti‑DDoS Lua untuk Nginx (MIT); kredit upstream tetap dijaga sesuai lisensi, sambil memusatkan fokus pada lingkungan **Ubuntu Server**.
 
 ---
 
@@ -129,7 +129,7 @@ Mitigasi lonjakan **HTTP/GET/POST** berskala besar yang menargetkan aplikasi. Tu
 Semakin banyak yang mengadopsi dan berkontribusi, semakin kuat pola deteksi—**membantu mengidentifikasi ancaman baru** di seluruh jaringan pengguna.
 
 ### ⚡ Tanpa Mengorbankan Performa
-Integrasi langsung di server kamu → **minim latensi tambahan**. Tidak wajib bergantung pada layanan pihak ketiga; kamu memegang kendali penuh.
+Integrasi langsung di server Anda → **minim latensi tambahan**. Tidak wajib bergantung pada layanan pihak ketiga; Anda memegang kendali penuh.
 
 ### 🔒 Web Application Firewall (WAF)
 Pemeriksaan terhadap **SQLi, XSS, CSRF**, header/URL/POST/cookie, serta **User‑Agent**. Mendukung **whitelist/blacklist** IP & subnet (IPv4/IPv6).
