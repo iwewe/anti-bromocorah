@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Anti Bromocorah — Installer (Bilingual ID/EN) — MIT
+# iwewe@2025
 set -euo pipefail
 LANG_CHOICE="id"
 
