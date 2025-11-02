@@ -1,10 +1,10 @@
 Source: anti-bromocorah
 Section: web
 Priority: optional
-Maintainer: Anti Bromocorah Maintainers <maintainers@example.org>
+Maintainer: Anti Bromocorah Maintainers <iwewe@patraka.net>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.2
-Homepage: https://example.org/anti-bromocorah
+Homepage: https://patraka.net/anti-bromocorah
 
 Package: anti-bromocorah
 Architecture: all
