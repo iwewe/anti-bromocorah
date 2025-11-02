@@ -1,6 +1,5 @@
-anti-bromocorah (2025.11.02-032305Z) unstable; urgency=medium
+nginx-lua-anti-ddos-challenge (1.0-1) unstable; urgency=medium
 
-  * Initial Debian packaging skeleton for Ubuntu servers.
-  * Installs anti_ddos_challenge.lua and anti_ddos.conf.
+  * Initial Ubuntu/Debian packaging of Nginx-Lua-Anti-DDoS.
 
- -- Anti Bromocorah Maintainers <maintainers@example.org>  Sun, 02 Nov 2025 03:23:05 +0000
+ -- Ubuntu Port Generator <maintainer@example.com>  Sat, 01 Nov 2025 16:02:35 +0000

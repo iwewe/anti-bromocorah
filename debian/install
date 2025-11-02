@@ -1,4 +1,2 @@
-anti_ddos_challenge.lua usr/share/nginx/anti_ddos/
-anti_ddos.conf etc/nginx/snippets/
-README.md usr/share/doc/anti-bromocorah/
-README.en.md usr/share/doc/anti-bromocorah/
+usr/share/nginx/anti_ddos/anti_ddos_challenge.lua usr/share/nginx/anti_ddos/
+etc/nginx/snippets/anti_ddos.conf etc/nginx/snippets/

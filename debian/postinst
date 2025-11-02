@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+# Create cache dir for lua shared dict if needed
+mkdir -p /var/cache/nginx/anti_ddos || true
+chown -R www-data:www-data /var/cache/nginx/anti_ddos || true
+chmod 0755 /var/cache/nginx/anti_ddos || true
+
+echo "==> Installed nginx-lua-anti-ddos-challenge."
+echo "Add the snippet to your server block:"
+echo "  include snippets/anti_ddos.conf;"
+echo "Then reload nginx: sudo nginx -t && sudo systemctl reload nginx"
