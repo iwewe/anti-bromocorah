@@ -1,7 +1,7 @@
 # Anti Bromocorah 2025.11.02-032305Z
 
 A Lua-based Anti-DDoS layer for Nginx/OpenResty on Ubuntu. Brief JS challenge, flexible global/per-location modes,
-bilingual installer/uninstaller, and clean rollback.
+bilingual installer/uninstaller, and clean rollback. 
 
 ## Highlights
 - Global or per-location injection
