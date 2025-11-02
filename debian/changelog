@@ -1,0 +1,336 @@
+nginx-lua-anti-ddos-challenge (2.7-1) stable; urgency=medium
+  - Performance improvement and fixes for Tor .onion checks javascript authentication puzzle now shows and protects backends for Tor users.
+  - Added support to detect if Linux, Windows or Mac for custom commands.
+
+ -- C0nw0nk <C0nw0nk@github>  Fri, 24 Oct 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.6-1) stable; urgency=medium
+  - Add ability to detect and auto whitelist servers IP address
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 08 Oct 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.5-1) stable; urgency=medium
+  - Add IPv6 Addresses to whitelist for localhost so that nginx setups using IPv6 do not internally ban themselves.
+  - Added check if exit status is 444 for close the connection or 204 for no content we do not need to waste time disabling gzip since there is no response to gzip.
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 08 Oct 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.4-1) stable; urgency=medium
+  - Range filter will now work with content-type fix set to false.
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 20 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.3-1) stable; urgency=medium
+  - GET content-type function ability to toggle on / off via true / false statement
+  - Default content-type function to true so users can turn it off if they need to
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 20 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.3-1) stable; urgency=medium
+  - GET content-type function ability to toggle on / off via true / false statement
+  - Default content-type function to true so users can turn it off if they need to
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 20 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.2-1) stable; urgency=medium
+  - String.find is faster than string match so use string.find where possible
+  - Improve speed of wildcard matches by not using string.find or string.match and using a custom function
+  - Performance improvement with logs
+  - Make sure users set custom commands get run on blocks
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 13 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.1-1) stable; urgency=medium
+  - Fix for users seeing javascript authentication puzzle i forgot to null out a line when doing tests.
+  - Added a check on default secret key or password just incase a user has not changed it from default
+
+ -- C0nw0nk <C0nw0nk@github>  Fri, 12 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.1-1) stable; urgency=medium
+  - Fix for users seeing javascript authentication puzzle i forgot to null out a line when doing tests.
+  - Added a check on default secret key or password just incase a user has not changed it from default
+
+ -- C0nw0nk <C0nw0nk@github>  Fri, 12 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (2.0-1) stable; urgency=medium
+  - Remove dependancy for ngx.re.gsub tests come back string.gsub is fast enough and performs better overall.
+  - Improved cache logs to make more readable/understandable
+  - Added extra details to Range, WAF and blocking logs
+  - Remove un-needed custom command checks
+  - Fix incase user does not want to use shared memory zones the function to obtain users real ip was not present added.
+
+ -- C0nw0nk <C0nw0nk@github>  Thu, 11 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.9-1) stable; urgency=medium
+  - Move Internal headers to a function
+  - Do IP blocked/banned checks before anything else no point generating headers if IP has been blocked for flooding
+  - Nil vars checks incase user changes a empty table var to a empty string.
+  - Fix for tor users authorization box / login box.
+  - Extend ban duration on IP's flooding whats the point in letting them access the site on expired time if they are still flooding
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 10 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.8-1) stable; urgency=medium
+  - Fix for internal header not matching strip out unwanted chars of encrypted header that caused this bug
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 10 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.8-1) stable; urgency=medium
+  - Fix for internal header not matching strip out unwanted chars of encrypted header that caused this bug
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 10 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.7-1) stable; urgency=medium
+  - Added Security feature to prevent spoofing on the Proxy headers CF-Connecting-IP or X-forwarded-for.
+  - For example a smart DDoS attack will send a fake CF-Connecting-IP header or X-Forwarded-For header in their request
+  - They do this to see if your server will use their real ip or the fake header they provide to you most servers do not even check this I do :)
+  - Example : `curl.exe "http://localhost/" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Language: en-GB,en;q=0.5" -H "Accept-Encoding: gzip, deflate, br, zstd" -H "DNT: 1" -H "Connection: keep-alive" -H "Cookie: name1=1; name2=2; logged_in=1" -H "Upgrade-Insecure-Requests: 1" -H "Sec-Fetch-Dest: document" -H "Sec-Fetch-Mode: navigate" -H "Sec-Fetch-Site: none" -H "Sec-Fetch-User: ?1" -H "Priority: u=0, i" -H "Pragma: no-cache" -H "Cache-Control: no-cache" -H "User-Agent:testagent1" -H "CF-Connecting-IP: 1" -H "X-Forwarded-For: 1" `
+  - Improvements for Tor / Onion network users script should now detect Tor automatically no need to change any settings.
+  - Improve Page Caching cookie matching
+  - Internal request header tracking encrypted so only the nginx process can use these headers
+  - localize and and re-order some vars and functions for better performance and execution ordering
+
+ -- C0nw0nk <C0nw0nk@github>  Tue, 09 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.6-1) stable; urgency=medium
+  - Added Feature localized.ip_whitelist_bypass_flood_protection = 0 --0 IP's in whitelist can still be banned / blocked for DDoS flooding behaviour 1 IP's bypass the flood detection
+  - Fixed Rate limit being double
+  - Tidy IP checks by using a function
+  - Increase default minimum request size from 20 bytes to 40 bytes
+  - Improve the default User-Agent block string for empty user-agent to pick up spaces as empty also
+  - Better setting for shared memory zones
+  - Add crawler IP's google bing to whitelist example
+  - Fix for cloudflare and proxys solving javascript puzzle make sure they don't override the 503 status and send their own custom error page.
+
+ -- C0nw0nk <C0nw0nk@github>  Sun, 07 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.6-1) stable; urgency=medium
+  - Added Feature localized.ip_whitelist_bypass_flood_protection = 0 --0 IP's in whitelist can still be banned / blocked for DDoS flooding behaviour 1 IP's bypass the flood detection
+  - Fixed Rate limit being double
+  - Tidy IP checks by using a function
+  - Increase default minimum request size from 20 bytes to 40 bytes
+  - Improve the default User-Agent block string for empty user-agent to pick up spaces as empty also
+  - Better setting for shared memory zones
+  - Add crawler IP's google bing to whitelist example
+  - Fix for cloudflare and proxys solving javascript puzzle make sure they don't override the 503 status and send their own custom error page.
+
+ -- C0nw0nk <C0nw0nk@github>  Sun, 07 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.5-1) stable; urgency=medium
+  - Fixed log to show IP address.
+  - IPs in the block range to get added to shared memory zone if exist
+  - IPs in whitelist range to get added to shared memory zone if exist
+  - Added Feature javascript authentication puzzle protection users who fail to solve the javascript puzzle more than a certain number of times can be blocked.
+  - Added feature ability to run external commands on IP addresses in the block list useful if you want to use iptables to block an address before it even reaches the nginx worker process.
+
+ -- C0nw0nk <C0nw0nk@github>  Fri, 05 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.5-1) stable; urgency=medium
+  - Fixed log to show IP address.
+  - IPs in the block range to get added to shared memory zone if exist
+  - IPs in whitelist range to get added to shared memory zone if exist
+  - Added Feature javascript authentication puzzle protection users who fail to solve the javascript puzzle more than a certain number of times can be blocked.
+  - Added feature ability to run external commands on IP addresses in the block list useful if you want to use iptables to block an address before it even reaches the nginx worker process.
+
+ -- C0nw0nk <C0nw0nk@github>  Fri, 05 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.4-1) stable; urgency=medium
+  - localize next functions
+  - Add ability to override ngx.location.capture headers being sent to backends.
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 03 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.4-1) stable; urgency=medium
+  - localize next functions
+  - Add ability to override ngx.location.capture headers being sent to backends.
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 03 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.3-1) stable; urgency=medium
+  - localize vars so the script is compatible with all nginx lua versions old and new.
+  - Fix content-type header depending on how early in execution process we are with nginx the content-type header could still be nil so i have fixed it.
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 03 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.3-1) stable; urgency=medium
+  - localize vars so the script is compatible with all nginx lua versions old and new.
+  - Fix content-type header depending on how early in execution process we are with nginx the content-type header could still be nil so i have fixed it.
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 03 Sep 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.2-1) stable; urgency=medium
+  - Fixed both guest and logged in user cache
+  - Fixed POST request caching
+  - Change default value to false in-case other scripts are present on the Nginx server to be executed after this script.
+  - Improved content cache key so it works with other request types like POST etc
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 23 Aug 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.2-1) stable; urgency=medium
+  - Fixed both guest and logged in user cache
+  - Fixed POST request caching
+  - Change default value to false in-case other scripts are present on the Nginx server to be executed after this script.
+  - Improved content cache key so it works with other request types like POST etc
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 23 Aug 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.1-1) stable; urgency=medium
+  - Added Feature Content-Type Caching using ngx.location.capture
+  - This is the same as `proxy_cache` or `fastcgi_cache` in nginx just more features and better.
+  - Added Feature HTML modification / Modify you can capture and modify pages outputs with this includding adding javascript to pages etc.
+  - Added Feature option for users who have other scripts on their nginx server to be able to run those after this. `ngx_exit` trigger.
+  - Fixed the shdict check i left it as a string `tostring` and a true or false check was not working properly.
+
+ -- C0nw0nk <C0nw0nk@github>  Wed, 20 Aug 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.0-1) stable; urgency=medium
+  - Initial packaging (RPM and DEB) for anti_ddos_challenge.lua created and maintained by C0nw0nk (https://github.com/C0nw0nk)
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 09 Aug 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.0-1) stable; urgency=medium
+  - Initial packaging (RPM and DEB) for anti_ddos_challenge.lua created and maintained by C0nw0nk (https://github.com/C0nw0nk)
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 09 Aug 2025 00:00:00 +0000
+
+nginx-lua-anti-ddos-challenge (1.0-1) stable; urgency=medium
+  - Initial packaging (RPM and DEB) for anti_ddos_challenge.lua created and maintained by C0nw0nk (https://github.com/C0nw0nk)
+
+ -- C0nw0nk <C0nw0nk@github>  Sat, 09 Aug 2025 00:00:00 +0000
+
